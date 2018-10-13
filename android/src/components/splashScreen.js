@@ -13,8 +13,8 @@ const Splash = () => {
     }, 3000)
     return (
         <View style={styles.splashStyle}>
-            {/* <Image style={{ width: 200, height: 200, flex: 1 }} source={{ uri: "http://www.beautifullife.info/wp-content/uploads/2018/02/28/kawasaki_ninja.jpg" }} /> */}
-            <Text>Hi here</Text>
+            <Image style={{ width: 525, height: 200, flex: 1 }} source={{ uri: "https://avante.biz/wp-content/uploads/Wallpaper-Motor/Wallpaper-Motor-001.jpg" }} />
+            
         </View>
     );
 }
@@ -22,8 +22,9 @@ const Splash = () => {
 const styles = StyleSheet.create({
     splashStyle: {
         flex: 1,
-        alignItems: "center",
-        justifyContent: "center"
+        alignItems: "flex-end",
+        justifyContent: "flex-end",paddingLeft:-100
+
     }
 })
 
